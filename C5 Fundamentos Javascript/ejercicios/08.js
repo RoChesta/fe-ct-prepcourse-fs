@@ -5,9 +5,9 @@ function esNumeroEntero(numero) {
   // Tu código:
   if (Number.isInteger(numero)) {
     return true;
-} else {
+  } else {
     return false;
-}
+  }
 }
 
 module.exports = esNumeroEntero;
